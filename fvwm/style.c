@@ -2330,7 +2330,7 @@ static Bool style_parse_one_style_option(
                         int f[4] = {-1, -1, -1, -1};
                         Bool bad = False;
 
-			num = 0;
+			int num = 0, i;
 			if (on != 0)
 			{
 				num = GetIntegerArguments(rest, &rest, val, 4);
@@ -2390,7 +2390,7 @@ static Bool style_parse_one_style_option(
                         int f[4] = {-1, -1, -1, -1};
                         Bool bad = False;
 
-			num = 0;
+			int num = 0, i;
 			if (on != 0)
 			{
 				num = GetIntegerArguments(rest, &rest, val, 4);
@@ -3080,7 +3080,7 @@ static Bool style_parse_one_style_option(
                         int f[4] = {-1, -1, -1, -1};
                         Bool bad = False;
 
-			num = 0;
+			int num = 0, i;
 			if (on != 0)
 			{
 				num = GetIntegerArguments(rest, &rest, val, 4);
@@ -3136,7 +3136,7 @@ static Bool style_parse_one_style_option(
                         int f[4] = {-1, -1, -1, -1};
                         Bool bad = False;
 
-			num = 0;
+			int num = 0, i;
 			if (on != 0)
 			{
 				num = GetIntegerArguments(rest, &rest, val, 4);
